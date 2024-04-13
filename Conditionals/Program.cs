@@ -37,6 +37,14 @@ namespace Conditionals
 			{
 				Console.WriteLine("a < b");
 			}
-		}
+
+            Console.WriteLine();
+            // Ternary Operator example 1
+            string result = (a > b) ? "a > b" : "a < b";
+            Console.WriteLine(result);
+			// Ternary Operator example 2
+			int x = 2;
+			bool isEven = (x % 2 == 0) ? true : false;
+        }
 	}
 }
